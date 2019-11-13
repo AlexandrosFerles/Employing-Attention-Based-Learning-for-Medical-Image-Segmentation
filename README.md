@@ -32,8 +32,8 @@ Representative results:
 |:-------------------|:--------|:------| 
 | 3D U-Net           | 5       | 94.42 |        
 |                    | 10      | 94.45 |        
-|                    | 5       | 94.61 |        
-| 3D Attention U-Net | 10      | 94.56 |        
+| 3D Attention U-Net | 5       | 94.61 |        
+|                    | 10      | 94.56 |        
 
 
 ## Training 
