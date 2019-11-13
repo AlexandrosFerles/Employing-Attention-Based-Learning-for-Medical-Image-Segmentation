@@ -1,0 +1,16 @@
+{
+  "training":{
+    "gpu": 0,
+    "model": "AttentionUnet3DSingleGating",
+    "input_channels": 1,
+    "num_classes": 1,
+    "k_folds": 5,
+    "k_fold_iter": 1,
+    "epochs": 200,
+    "patience": 5,
+    "eta": 0.005,
+    "optimizer": "SGD",
+    "batch_size": 4,
+    "path": "/home/aferles/my_data/Datasets/NumpyLUNA",
+    "output_file_directory": "./results"}
+}

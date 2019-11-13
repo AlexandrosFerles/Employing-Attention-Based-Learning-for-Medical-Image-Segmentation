@@ -1,0 +1,19 @@
+{
+  "training":{
+    "gpu": 0,
+    "model": "UNet2D",
+    "input_channels": 1,
+    "num_classes": 1,
+    "k_folds": 5,
+    "k_fold_iter": 1,
+    "epochs": 200,
+    "patience": 5,
+    "eta": 0.005,
+    "optimizer": "SGD",
+    "loss_type": "SoftDiceLoss2D",
+    "batch_size": 4,
+    "train_path": "/mnt/data/aferles/Datasets/Chest_X-Ray/Image",
+    "test_path": "/mnt/data/aferles/Datasets/Chest_X-Ray/Mask2",
+    "data_format": "Image",
+    "output_file_directory": "./results"}
+}

@@ -1,0 +1,19 @@
+{
+  "training":{
+    "gpu": 1,
+    "model": "AttentionUnet2DMultiGating",
+    "input_channels": 1,
+    "num_classes": 1,
+    "k_folds": 5,
+    "k_fold_iter": 1,
+    "epochs": 200,
+    "patience": 5,
+    "eta": 0.005,
+    "loss_type": "BCE",
+    "optimizer": "SGD",
+    "batch_size": 4,
+    "train_path": "/mnt/data/aferles/Datasets/Chest_X-Ray/Image",
+    "test_path": "/mnt/data/aferles/Datasets/Chest_X-Ray/Mask2",
+    "output_file_directory": "./results" 
+  }
+}
